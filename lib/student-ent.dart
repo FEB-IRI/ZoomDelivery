@@ -1,10 +1,17 @@
-import 'package:flutter/material.dart';
+// ignore: file_names
+import "package:flutter/material.dart";
 
-class Studentent extends StatelessWidget {
-  const Studentent({super.key});
+class Dashboard extends StatelessWidget {
+  const Dashboard({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+      body: Container(
+
+        
+      ),
+    );
   }
 }
